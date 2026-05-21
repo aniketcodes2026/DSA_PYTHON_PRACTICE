@@ -6,6 +6,7 @@ My Python solutions to DSA and problem-solving questions from LeetCode, HackerRa
 
 ## Topics Covered
 - Basics of python
+- Lists
 - Arrays
 - Strings
 - Hashing
