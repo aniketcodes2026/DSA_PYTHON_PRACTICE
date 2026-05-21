@@ -5,6 +5,7 @@ Tracking my journey of learning Data Structures, Algorithms, and problem solving
 My Python solutions to DSA and problem-solving questions from LeetCode, HackerRank, and other platforms.
 
 ## Topics Covered
+- Basics of python
 - Arrays
 - Strings
 - Hashing
