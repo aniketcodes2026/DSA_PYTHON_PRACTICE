@@ -12,6 +12,8 @@ My Python solutions to DSA and problem-solving questions from LeetCode, HackerRa
 - Hashing
 - Stack
 - Recursion
+- OOPS(additional)
+- numpy
 
 ## Goal
 Improve problem-solving skills and prepare for coding interviews.
