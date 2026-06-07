@@ -1,4 +1,5 @@
 #print sqaure of each natural number till n
+#while loop
 n = int(input())
     i=0
     while i < n:
