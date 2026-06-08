@@ -1,5 +1,5 @@
 #to write all natural number till n without spacing and in one line
-if __name__ == '__main__'
+
     n = int(input())
     list=[]
     i=1
