@@ -1,6 +1,8 @@
 # Problem: Palindrome Number
 # Platform: LeetCode
 # Concept: Number Manipulation
+
+
 class Solution(object):
     def isPalindrome(self, x):
         if x < 0:
