@@ -1,11 +1,12 @@
 # Problem: List Comprehensions
 # Platform: HackerRank
 # Concept: Lists / Nested Loops
-if __name__ == '__main__':
-    x = int(input())
-    y = int(input())
-    z = int(input())
-    n = int(input())
+
+
+x = int(input())
+y = int(input())
+z = int(input())
+n = int(input())
     result=[]
     for i in range(0,x+1):
         for j in range(0,y+1):
