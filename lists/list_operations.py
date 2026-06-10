@@ -1,29 +1,31 @@
 # Problem: Lists
 # Platform: HackerRank
 # Concept: List Operations
-lst = []
+
+
+list1 = []
 N = int(input())
 
 for _ in range(N):
     cmd = input().split()
 
     if cmd[0] == "insert":
-        lst.insert(int(cmd[1]), int(cmd[2]))
+        list1.insert(int(cmd[1]), int(cmd[2]))
 
     elif cmd[0] == "print":
-        print(lst)
+        print(list1)
 
     elif cmd[0] == "remove":
-        lst.remove(int(cmd[1]))
+        list1.remove(int(cmd[1]))
 
     elif cmd[0] == "append":
-        lst.append(int(cmd[1]))
+        list1.append(int(cmd[1]))
 
     elif cmd[0] == "sort":
-        lst.sort()
+        list1.sort()
 
     elif cmd[0] == "pop":
-        lst.pop()
+        list1.pop()
 
     elif cmd[0] == "reverse":
-        lst.reverse()
+        list1.reverse()
