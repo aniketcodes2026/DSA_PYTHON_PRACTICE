@@ -1,7 +1,8 @@
 # Problem: Nested Lists
 # Platform: HackerRank
 # Concept: Nested Lists / Sorting
-if __name__ == '__main__':
+
+    
     students=[]
     for _ in range(int(input())):
         name = str(input())
