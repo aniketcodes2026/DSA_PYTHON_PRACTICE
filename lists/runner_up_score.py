@@ -1,11 +1,11 @@
 # Problem: Find the Runner-Up Score
 # Platform: HackerRank
 # Concept: Lists / Sorting
-if __name__ == '__main__':
-    n = int(input())
-    arr = list(map(int, input().split()))
-    arr.sort()
-    largest=arr[-1]
-    while arr[-1]==largest:
-        arr.pop()
-    print(arr[-1])
+
+n = int(input())
+arr = list(map(int, input().split()))
+arr.sort()
+largest=arr[-1]
+while arr[-1]==largest:
+    arr.pop()
+print(arr[-1])
