@@ -8,20 +8,20 @@ c = 'H'
 
 # Top Cone
 for i in range(thickness):
-    print((c * i).rjust(thickness - 1) + c + (c * i).ljust(thickness - 1))
+    print((c * i).rjust(thickness - 1) + c + (c * i).ljust(thickness - 1)) # rjust() and ljust() are used to align the text to the right and left respectively.
 
 # Top Pillars
 for i in range(thickness + 1):
-    print((c * thickness).center(thickness * 2) + (c * thickness).center(thickness * 6))
+    print((c * thickness).center(thickness * 2) + (c * thickness).center(thickness * 6)) # center() is used to align the text to the center.
 
 # Middle Belt
 for i in range((thickness + 1) // 2):
-    print((c * thickness * 5).center(thickness * 6))
+    print((c * thickness * 5).center(thickness * 6)) # center() is used to align the text to the center.
 
 # Bottom Pillars
 for i in range(thickness + 1):
-    print((c * thickness).center(thickness * 2) + (c * thickness).center(thickness * 6))
+    print((c * thickness).center(thickness * 2) + (c * thickness).center(thickness * 6)) # center() is used to align the text to the center.
 
 # Bottom Cone
 for i in range(thickness):
-    print(((c * (thickness - i - 1)).rjust(thickness) + c + (c * (thickness - i - 1)).ljust(thickness)).rjust(thickness * 6))
+    print(((c * (thickness - i - 1)).rjust(thickness) + c + (c * (thickness - i - 1)).ljust(thickness)).rjust(thickness * 6)) # rjust() and ljust() are used to align the text to the right and left respectively, and then rjust() is used again to align the whole string to the right.
