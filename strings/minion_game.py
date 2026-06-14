@@ -2,7 +2,6 @@
 #platform = hackerrank
 #concept = strings/loops
 
-
 def minion_game(string):
     vowels = "AEIOU"
     kevin = 0
