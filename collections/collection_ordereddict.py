@@ -12,7 +12,7 @@ items = OrderedDict()
 for _ in range(n):
     entry = input().split()
 
-    item_name = " ".join(entry[:-1])
+    item_name = " ".join(entry[:-1]) # join all the words except the last one to get the item name, since the item name can have spaces in it
     price = int(entry[-1])
 
     if item_name in items:
@@ -21,4 +21,4 @@ for _ in range(n):
         items[item_name] = price
 
 for item, total in items.items():
-    print(item, total)
+    print(item, total) # print the item name and the total price for that item, in the order they were first added to the dictionary
