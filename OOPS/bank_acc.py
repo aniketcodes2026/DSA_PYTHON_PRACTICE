@@ -8,13 +8,13 @@ class Account:
 
     def debit(self, amount):
         self.balance -= amount
-        print("Rs.", amount, "was debited")
-        print("Total balance =", self.get_balance())
+        print("Rs.", amount, "was debited") # print the amount debited
+        print("Total balance =", self.get_balance()) # print the total balance after debiting
 
     def credit(self, amount):
         self.balance += amount
-        print("Rs.", amount, "was credited")
-        print("Total balance =", self.get_balance())
+        print("Rs.", amount, "was credited") # print the amount credited
+        print("Total balance =", self.get_balance()) # print the total balance after crediting
 
     def get_balance(self):
         return self.balance
