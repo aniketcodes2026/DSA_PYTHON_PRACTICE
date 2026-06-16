@@ -9,4 +9,4 @@ s, k = input().split()
 
 for i in range(1, int(k) + 1):
     for c in combinations(sorted(s), i):
-        print(''.join(c))
+        print(''.join(c)) #prints all the combinations of the characters in the string s with length from 1 to k, sorted in lexicographic order
