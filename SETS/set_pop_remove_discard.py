@@ -1,8 +1,8 @@
 n = int(input())
-s = set(map(int, input().split()))
+s = set(map(int, input().split())) # Read the initial set of integers
 
 for _ in range(int(input())):
-    command = input().split()
+    command = input().split() # Read the command and its argument (if any)
 
     if command[0] == "pop":
         s.pop()
