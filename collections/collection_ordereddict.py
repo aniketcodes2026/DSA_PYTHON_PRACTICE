@@ -10,7 +10,7 @@ n = int(input())
 items = OrderedDict()
 
 for _ in range(n):
-    entry = input().split()
+    entry = input().split() # split the input line into words, the last word is the price, the rest is the item name
 
     item_name = " ".join(entry[:-1]) # join all the words except the last one to get the item name, since the item name can have spaces in it
     price = int(entry[-1])
