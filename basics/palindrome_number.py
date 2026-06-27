@@ -3,19 +3,27 @@
 # Concept: Number Manipulation
 
 
+x = int(input("Enter a number: "))
+
 class Solution(object):
     def isPalindrome(self, x):
         if x < 0:
             return False
+
         div = 1
-        while x>=10*div:
-            div*=10
-        while div>1:
-            left=x//div
-            right=x%10
+        while x >= 10 * div:
+            div *= 10
+
+        while div > 1:
+            left = x // div
+            right = x % 10
+
             if left != right:
                 return False
-obj = Solution()
 
-x = int(input("Enter a number: "))
-print(obj.isPalindrome(x))
+            x = (x % div) // 10
+            div //= 100
+
+        return True
+
+print(Solution().isPalindrome(x))
