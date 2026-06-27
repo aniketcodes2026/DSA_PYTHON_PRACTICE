@@ -11,7 +11,7 @@ class Solution(object):
         while x>=10*div:
             div*=10
         while div>1:
-            left=x/div
+            left=x//div
             right=x%10
             if left != right:
                 return False
