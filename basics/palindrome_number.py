@@ -15,3 +15,7 @@ class Solution(object):
             right=x%10
             if left != right:
                 return False
+obj = Solution()
+
+x = int(input("Enter a number: "))
+print(obj.isPalindrome(x))
