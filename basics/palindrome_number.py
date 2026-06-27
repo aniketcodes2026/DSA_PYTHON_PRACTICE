@@ -4,26 +4,24 @@
 
 
 x = int(input("Enter a number: "))
+def isPalindrome(x):
+    if x < 0:
+        return False
 
-class Solution(object):
-    def isPalindrome(self, x):
-        if x < 0:
+    div = 1
+    while x >= 10 * div:
+        div *= 10
+
+    while div > 1:
+        left = x // div
+        right = x % 10
+
+        if left != right:
             return False
 
-        div = 1
-        while x >= 10 * div:
-            div *= 10
+        x = (x % div) // 10
+        div //= 100
 
-        while div > 1:
-            left = x // div
-            right = x % 10
+    return True
 
-            if left != right:
-                return False
-
-            x = (x % div) // 10
-            div //= 100
-
-        return True
-
-print(Solution().isPalindrome(x))
+print(isPalindrome(x))
