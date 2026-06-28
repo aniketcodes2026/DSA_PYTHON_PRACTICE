@@ -1,6 +1,7 @@
 # Problem: No Idea!
 # Platform: HackerRank
 # Concept: Sets
+# Description: Calculate the happiness score based on whether array elements belong to set A (+1) or set B (-1).
 
 n, m = map(int, input().split())
 
