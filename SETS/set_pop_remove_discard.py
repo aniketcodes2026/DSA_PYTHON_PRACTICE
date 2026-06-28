@@ -1,3 +1,7 @@
+Problem: Pop Remove Discard
+Concept: Command
+Platform: Hackerrank
+
 n = int(input())
 s = set(map(int, input().split())) # Read the initial set of integers
 
