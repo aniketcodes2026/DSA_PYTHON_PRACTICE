@@ -1,14 +1,10 @@
 # Problem: Calendar Module
 # Platform: HackerRank
 # Concept: Date & Time / Calendar
-
-
 import calendar
-
 month, day, year = map(int, input().split())
 
 weekday = calendar.weekday(year, month, day)
-
 days = [
     "MONDAY",
     "TUESDAY",
