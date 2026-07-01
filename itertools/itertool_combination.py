@@ -2,7 +2,6 @@
 # Platform: HackerRank
 # Concept: Itertools / Combinations
 
-
 from itertools import combinations
 
 s, k = input().split() # Read the string and the maximum combination size
