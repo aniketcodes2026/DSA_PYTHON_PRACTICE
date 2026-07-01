@@ -2,7 +2,6 @@
 # Platform: HackerRank
 # Concept: Itertools / Cartesian Product
 
-
 from itertools import product
 
 A = list(map(int, input().split())) # Read the first list of integers
