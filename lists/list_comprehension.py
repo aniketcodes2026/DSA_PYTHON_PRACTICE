@@ -2,7 +2,6 @@
 # Platform: HackerRank
 # Concept: Lists / Nested Loops
 
-
 x = int(input())
 y = int(input())
 z = int(input())
