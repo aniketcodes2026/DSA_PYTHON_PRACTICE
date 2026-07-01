@@ -2,7 +2,6 @@
 # Platform: HackerRank
 # Concept: Itertools / Permutations
 
-
 from itertools import permutations
 
 s, k = input().split() # Read the string and the permutation size
