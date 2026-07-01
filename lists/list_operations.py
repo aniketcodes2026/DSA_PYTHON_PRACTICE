@@ -2,7 +2,6 @@
 # Platform: HackerRank
 # Concept: List Operations
 
-
 list1 = []
 N = int(input())
 
