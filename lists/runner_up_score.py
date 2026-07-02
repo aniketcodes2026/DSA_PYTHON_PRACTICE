@@ -2,7 +2,6 @@
 # Concept: Lists / Sorting
 # Platform: HackerRank
 
-
 n = int(input())
 arr = list(map(int, input().split()))
 arr.sort()
