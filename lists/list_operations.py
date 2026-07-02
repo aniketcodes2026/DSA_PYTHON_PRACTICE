@@ -1,6 +1,7 @@
 # Problem: Lists
-# Platform: HackerRank
 # Concept: List Operations
+# Platform: HackerRank
+
 
 list1 = []
 N = int(input())
