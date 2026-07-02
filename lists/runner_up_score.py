@@ -1,6 +1,7 @@
 # Problem: Find the Runner-Up Score
-# Platform: HackerRank
 # Concept: Lists / Sorting
+# Platform: HackerRank
+
 
 n = int(input())
 arr = list(map(int, input().split()))
