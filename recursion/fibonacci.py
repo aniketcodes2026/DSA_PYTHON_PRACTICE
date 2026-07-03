@@ -12,6 +12,5 @@ def fibonacci(n):
 
     return fibonacci(n - 1) + fibonacci(n - 2) # F(n) = F(n-1) + F(n-2)
 
-
 num = int(input("Enter position: "))
 print("Fibonacci number =", fibonacci(num)) # prints the Fibonacci number at the input position
