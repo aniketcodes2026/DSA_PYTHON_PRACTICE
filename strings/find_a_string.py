@@ -2,7 +2,6 @@
 # Platform: HackerRank
 # Concept: Strings / Substrings
 
-
 def count_substring(string, sub_string):
     count = 0
 
