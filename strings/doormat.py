@@ -2,7 +2,6 @@
 # Platform: HackerRank
 # Concept: Strings / Pattern Printing
 
-
 n, m = map(int, input().split())
 for i in range(n // 2): # iterate from 0 to n//2 - 1
 
