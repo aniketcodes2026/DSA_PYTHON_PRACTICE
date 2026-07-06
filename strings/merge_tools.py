@@ -1,6 +1,6 @@
 problem = the merge tools
 platform = hackerrank
-cconcept = strings/sets
+concept = strings/sets
 
 def merge_the_tools(string, k):
     for i in range(0, len(string), k):
