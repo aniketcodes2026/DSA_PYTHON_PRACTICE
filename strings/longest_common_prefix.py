@@ -1,6 +1,8 @@
 # Problem: Longest Common Prefix
 # Platform: LeetCode
 # Concept: Strings
+
+
 class Solution(object):
     def longestCommonPrefix(self, strs):
         prefix=strs[0]
