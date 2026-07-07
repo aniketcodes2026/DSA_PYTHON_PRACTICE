@@ -2,7 +2,6 @@
 # Platform: HackerRank
 # Concept: Strings / Pattern Printing
 
-
 def print_rangoli(size):
     alpha = 'abcdefghijklmnopqrstuvwxyz'
     width = 4 * size - 3
