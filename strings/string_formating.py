@@ -2,7 +2,6 @@
 # Platform: HackerRank
 # Concept: Strings / Number Formatting
 
-
 def print_formatted(number):
     width = len(bin(number)) - 2
 
