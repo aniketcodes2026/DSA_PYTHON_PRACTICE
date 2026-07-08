@@ -1,6 +1,7 @@
 # Problem: String Validators
 # Platform: HackerRank
 # Concept: Strings
+
 s = input()
 
 print(any(char.isalnum() for char in s))
