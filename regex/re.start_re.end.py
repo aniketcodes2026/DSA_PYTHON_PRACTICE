@@ -2,9 +2,7 @@
 # Platform: HackerRank
 # Concept: Regular Expressions (Regex)
 
-
 import re
-
 S = input()
 k = input()
 
