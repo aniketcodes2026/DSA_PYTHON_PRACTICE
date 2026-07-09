@@ -7,5 +7,5 @@ def power(a, b):
         return 1
 
     return a * power(a, b - 1) # Recursion: a^b = a * a^(b-1)
-
+#EXAMPLE:
 print(power(2, 5))
