@@ -3,6 +3,7 @@
 # Concept: NumPy / Linear Algebra
 
 import numpy
+
 n=int(input())
 array=numpy.array([input().split() for _ in range(n)],float) # List comprehension to read n lines of input and create a 2D array (matrix) of floats
 print(round(numpy.linalg.det(array),2)) #The linalg.det tool computes the determinant of an array. #round off to 2 decimal places
