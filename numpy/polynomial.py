@@ -4,6 +4,7 @@
 
 import numpy
 
+
 poly=list(map(float,input().split())) # List comprehension to read a line of input, split it into components, convert each component to a float, and create a list of these floats representing the coefficients of the polynomial. The coefficients are typically ordered from the highest degree to the lowest degree (i.e., poly[0] is the coefficient of x^n, poly[1] is the coefficient of x^(n-1), and so on).
 
 x=float(input()) # The above line reads a single line of input, converts it to a float, and assigns it to the variable x. This value will be used as the point at which to evaluate the polynomial defined by the coefficients in the poly list.
