@@ -2,6 +2,7 @@
 # Platform: HackerRank
 # Concept: Collections / OrderedDict
 
+
 from collections import OrderedDict
 
 n = int(input())
