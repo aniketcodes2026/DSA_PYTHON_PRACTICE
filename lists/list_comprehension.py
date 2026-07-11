@@ -12,4 +12,5 @@ n = int(input())
             for k in range(0,z+1):
                 if i+j+k!=n:
                     result.append([i,j,k])
+    
     print(result)
