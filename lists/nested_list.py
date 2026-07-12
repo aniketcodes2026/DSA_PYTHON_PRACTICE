@@ -3,6 +3,7 @@
 # Concept: Nested Lists / Sorting
 
 students=[]
+
 for _ in range(int(input())):
     name = str(input())
     score = float(input())
