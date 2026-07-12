@@ -1,6 +1,7 @@
 # Problem: Calendar Module
 # Platform: HackerRank
 # Concept: Date & Time / Calendar
+
 import calendar
 month, day, year = map(int, input().split())
 
