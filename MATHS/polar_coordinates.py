@@ -1,7 +1,6 @@
 # Problem: Polar Coordinates
-# Platform: HackerRank
 # Concept: Math / Complex Numbers
-
+# Platform: HackerRank
 import cmath
 
 z = complex(input())
