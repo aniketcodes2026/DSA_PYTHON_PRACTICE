@@ -1,6 +1,6 @@
 # Problem: Two Sum
-# Platform: LeetCode
 # Concept: Arrays / Hash Maps
+# Platform: LeetCode
 
 class Solution(object):
     
