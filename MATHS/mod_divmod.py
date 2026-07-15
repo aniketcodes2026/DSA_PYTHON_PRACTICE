@@ -1,6 +1,7 @@
 # Problem: Mod Divmod
-# Concept: Math
+# Concept: Maths
 # Platform: HackerRank
+
 
 a = int(input())
 b = int(input())
