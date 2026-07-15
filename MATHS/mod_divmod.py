@@ -2,7 +2,6 @@
 # Concept: Maths
 # Platform: HackerRank
 
-
 a = int(input())
 b = int(input())
 
