@@ -1,6 +1,6 @@
 # Problem: itertools.combinations()
-# Platform: HackerRank
 # Concept: Itertools / Combinations
+# Platform: HackerRank
 
 from itertools import combinations
 
