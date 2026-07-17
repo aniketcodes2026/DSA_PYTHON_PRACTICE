@@ -1,6 +1,6 @@
 # Problem: Palindrome Number
-# Platform: LeetCode
 # Concept: Number Manipulation
+# Platform: LeetCode
 
 x = int(input("Enter a number: "))
 def isPalindrome(x):
