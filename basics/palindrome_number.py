@@ -11,7 +11,6 @@ def isPalindrome(x):
     div = 1
     while x >= 10 * div:
         div *= 10
-
     while div > 1:
         left = x // div
         right = x % 10
