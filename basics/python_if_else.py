@@ -1,3 +1,6 @@
+# Concept: If-Else
+# Platform: Hackerrank
+
 n = int(input())
     
     if n%2!=0:
