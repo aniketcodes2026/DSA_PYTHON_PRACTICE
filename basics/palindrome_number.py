@@ -2,7 +2,6 @@
 # Platform: LeetCode
 # Concept: Number Manipulation
 
-
 x = int(input("Enter a number: "))
 def isPalindrome(x):
     if x < 0:
