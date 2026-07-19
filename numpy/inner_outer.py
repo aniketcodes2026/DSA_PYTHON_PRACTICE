@@ -2,7 +2,6 @@
 # Platform: HackerRank
 # Concept: NumPy / Inner Product / Outer Product
 
-
 import numpy
 
 a = numpy.array(input().split(), int) # List comprehension to read a line of input and create a 1D array of integers
