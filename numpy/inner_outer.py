@@ -1,6 +1,6 @@
 # Problem: Inner and Outer
-# Platform: HackerRank
 # Concept: NumPy / Inner Product / Outer Product
+# Platform: HackerRank
 
 import numpy
 
