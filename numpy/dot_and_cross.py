@@ -1,6 +1,6 @@
 # Problem: Dot and Cross
-# Platform: HackerRank
 # Concept: NumPy / Matrix Multiplication
+# Platform: HackerRank
 
 import numpy
 
