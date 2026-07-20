@@ -1,6 +1,6 @@
 # Problem: Find a String
-# Platform: HackerRank
 # Concept: Strings / Substrings
+# Platform: HackerRank
 
 def count_substring(string, sub_string):
     count = 0
