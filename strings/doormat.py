@@ -1,6 +1,6 @@
 # Problem: Designer Door Mat
-# Platform: HackerRank
 # Concept: Strings / Pattern Printing
+# Platform: HackerRank
 
 n, m = map(int, input().split())
 for i in range(n // 2): # iterate from 0 to n//2 - 1
