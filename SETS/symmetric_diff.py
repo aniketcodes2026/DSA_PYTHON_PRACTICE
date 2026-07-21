@@ -1,6 +1,6 @@
 # Problem: Symmetric Difference
-# Platform: HackerRank
 # Concept: Sets
+# Platform: HackerRank
 
 m = int(input())
 A = set(map(int, input().split())) # map() function applies a given function to each item of an iterable (like a list) and returns a list of the results. In this case, it converts each input string into an integer before creating the set A.
