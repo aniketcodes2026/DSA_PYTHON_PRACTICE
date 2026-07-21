@@ -1,6 +1,6 @@
 # Problem: Introduction to Sets
-# Concept: Sets
 # Platform: Hackerrank
+# Concept: Sets
 
 n = int(input())
 array = list(map(int, input().split()))
