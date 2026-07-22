@@ -2,8 +2,8 @@
 # Concept: List Operations
 # Platform: HackerRank
 
-
 list1 = []
+
 N = int(input())
 
 for _ in range(N):
