@@ -1,4 +1,8 @@
+# Problem: Leap Year
+# Platform: Hackerrank
+
 year = int(input())
+
 def is_leap(year):
     if year%400==0:   #remainder when divided by 400 = 0
         return True
