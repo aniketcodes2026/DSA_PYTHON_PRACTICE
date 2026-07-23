@@ -1,6 +1,6 @@
-Problem: Arithmetic Operators
-Concept: In this challenge, we practice using arithmetic operators.
-Platform: HackerRank
+# Problem: Arithmetic Operators
+# Concept: In this challenge, we practice using arithmetic operators.
+# Platform: HackerRank
 
 a = int(input(Enter a number:))
 b = int(input(Enter a number:))
