@@ -1,3 +1,6 @@
+# Problem: Float and Integer Division
+# Platform: Hackerrank
+
 a = int(input())
 b = int(input())
 
