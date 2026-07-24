@@ -1,6 +1,7 @@
 # Problem: Polynomials
-# Platform: HackerRank
 # Concept: NumPy / Polynomial Evaluation
+# Platform: HackerRank
+
 
 import numpy
 
