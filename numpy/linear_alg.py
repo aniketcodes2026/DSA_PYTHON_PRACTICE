@@ -1,6 +1,7 @@
 # Problem: Linear Algebra
-# Platform: HackerRank
 # Concept: NumPy / Linear Algebra
+# Platform: HackerRank
+
 
 import numpy
 
