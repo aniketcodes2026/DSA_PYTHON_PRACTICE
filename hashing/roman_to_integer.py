@@ -1,6 +1,6 @@
 # Problem: Roman to Integer
-# Platform: LeetCode
 # Concept: Hash Maps / Strings
+# Platform: LeetCode
 
 class Solution(object):
     def romanToInt(self, s):
