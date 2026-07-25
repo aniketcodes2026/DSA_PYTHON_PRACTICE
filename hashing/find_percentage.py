@@ -1,9 +1,7 @@
 # Problem: Finding the Percentage
-# Platform: HackerRank
 # Concept: Dictionaries / Hash Maps
+# Platform: HackerRank
 
-
-if __name__ == '__main__':
     n = int(input())
     student_marks = {}
     for _ in range(n):
