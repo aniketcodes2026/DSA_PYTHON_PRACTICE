@@ -21,5 +21,4 @@ def isPalindrome(x):
         div //= 100
 
     return True
-
 print(isPalindrome(x))
