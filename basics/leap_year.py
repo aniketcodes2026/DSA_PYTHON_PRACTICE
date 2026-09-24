@@ -1,6 +1,7 @@
 # Problem: Leap Year
 # Platform: Hackerrank
 
+
 year = int(input())
 
 def is_leap(year):
