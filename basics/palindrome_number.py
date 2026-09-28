@@ -6,8 +6,8 @@ x = int(input("Enter a number: "))
 def isPalindrome(x):
     if x < 0:
         return False
-
-    div = 1
+        
+        div = 1
     while x >= 10 * div:
         div *= 10
     while div > 1:
