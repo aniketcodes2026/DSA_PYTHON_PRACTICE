@@ -11,6 +11,7 @@ counter = Counter(shoes)
 
 money = 0
 
+
 for _ in range(int(input())):
     size, price = map(int, input().split()) # read the size and price of the shoe being sold
 
