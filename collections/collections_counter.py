@@ -5,6 +5,7 @@
 from collections import Counter
 
 n = int(input())
+
 shoes = list(map(int, input().split())) # read the number of shoes and the sizes of the shoes available in the store, and store them in a list called shoes
 
 counter = Counter(shoes)
